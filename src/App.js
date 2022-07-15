@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState, useEffect} from 'react'
+import './index.css'
+import GridLoader from "react-spinners/GridLoader";
+import './whirl.css'
 
-function App() {
+
+const App = () => {
+    const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        setLoading(true)
+        setTimeout(() => {
+            setLoading(false)
+        }, 3000)
+    }, [])
+    
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <div class="whirl pong"></div> */}
+        {
+            loading ?
+            <div className="loader">
+                <GridLoader 
+                color={"#6FFFD4"}
+                loading={loading}
+                size={15} 
+                />
+             </div>
+            :
+            <h1>hey</h1>
+        }
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
