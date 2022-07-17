@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from 'react'
-import './index.css'
+import './styles/index.css'
+import './styles/navbar.css'
 import GridLoader from "react-spinners/GridLoader";
-import './whirl.css'
+import NavBar from './components/NavBar';
+// import './whirl.css'
 
 
 const App = () => {
@@ -27,7 +29,7 @@ const App = () => {
                 />
              </div>
             :
-            <h1>hey</h1>
+            <NavBar/>
         }
     </div>
   )

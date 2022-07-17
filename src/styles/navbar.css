@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    height: 90px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 80px;
+
+    color: #ABABAB;
+}
+
+.nav-button{
+    width: 121px;
+    height: 45px;
+    border: 1px solid #6FFFD4;
+    border-radius: 5px;
+    background: none;
+    outline: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 80px;
+
+    color: #6FFFD4;
+
+
+}
