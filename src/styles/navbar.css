@@ -4,6 +4,10 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
+
+    position: fixed;
+    top: 0;
+    transition: top 0.5s
 }
 
 .nav-logo{
@@ -23,9 +27,47 @@
     font-weight: 300;
     font-size: 16px;
     margin-right: 80px;
-
     color: #ABABAB;
+    display: inline-block;
+    position: relative;
+
+
+    background-image: linear-gradient(
+      to right,
+      #6FFFD4,
+      #6FFFD4 50%,
+      #ABABAB 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
 }
+  
+.nav-item:before {
+    content: '';
+    background: #6FFFD4;
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    transition: all 0.3s ease-in-out;
+}
+  
+.nav-item:hover {
+   background-position: 0;
+  }
+  
+.nav-item:hover::before {
+    width:100%;
+  }
+
 
 .nav-button{
     width: 121px;
@@ -42,6 +84,31 @@
     margin-right: 80px;
 
     color: #6FFFD4;
+    transition: all 0.5s;
+    cursor: pointer;
+}
 
+.nav-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
 
+.nav-button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.nav-button:hover span {
+padding-right: 15px;
+}
+
+.nav-button:hover span:after{
+opacity: 1;
+right: 0;
 }

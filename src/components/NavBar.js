@@ -7,11 +7,11 @@ const NavBar = () => {
     <div className="navbar">
         <img className="nav-logo" src={YashLogo}/>
         <div className="nav-right">
-            <h1 className="nav-item">About</h1>
-            <h1 className="nav-item">Experience</h1>
-            <h1 className="nav-item">Projects</h1>
-            <h1 className="nav-item">Contact</h1>
-            <button className="nav-button">Resume</button>
+            <a style={{"textDecoration": "none"}} href="/about"><h1 className="nav-item">About</h1></a>
+            <a style={{"textDecoration": "none"}} href="/experience"><h1 className="nav-item">Experience</h1></a>
+            <a style={{"textDecoration": "none"}} href="/projects"><h1 className="nav-item">Projects</h1></a>
+            <a style={{"textDecoration": "none"}} href="/contact"><h1 className="nav-item">Contact</h1></a>
+            <button className="nav-button"><span>Resume</span></button>
         </div>
     </div>
   )
