@@ -3,6 +3,7 @@ import './styles/index.css'
 import './styles/navbar.css'
 import GridLoader from "react-spinners/GridLoader";
 import NavBar from './components/NavBar';
+import Landing from './components/Landing';
 // import './whirl.css'
 
 
@@ -29,7 +30,10 @@ const App = () => {
                 />
              </div>
             :
-            <NavBar/>
+            <>
+                <NavBar/>
+                <Landing/>
+            </>
         }
     </div>
   )

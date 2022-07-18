@@ -1,0 +1,98 @@
+.landing{
+    position: absolute;
+    margin-top: 90px;
+    width: 100%;
+    font-family: 'Roboto';
+}
+
+.landing-left{
+    text-align: right;
+    width: 40%;
+}
+
+.landing-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: -25px;
+
+    color: #FFFFFF;
+}
+
+.landing-role{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    margin-bottom: -13px;
+
+    color: #6FFFD4;
+}
+
+.landing-location{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 21px;
+
+    color: #FFFFFF;
+}
+
+.landing-right{
+    width: 35%;
+    margin-left: 55%;
+    text-align: right;
+}
+
+.landing-summary{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.summary-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+
+    color: #6FFFD4;
+}
+
+.summary-line{
+    width: 370px;
+    height: 0;
+    border: 1px solid #6FFFD4;
+}
+
+.landing-headline{
+    display: flex;
+}
+
+.landing-headline b{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+
+    color: #FFFFFF;
+    overflow: hidden;
+    border-right: .15em solid #6FFFD4;
+    white-space: nowrap;
+    animation: 
+        typing 5s forwards;
+    width: 0;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+
+.landing-description{
+    font-style: normal;
+    font-weight: 150;
+    font-size: 23px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}

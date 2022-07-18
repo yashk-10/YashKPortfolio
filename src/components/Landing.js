@@ -10,9 +10,18 @@ const Landing = () => {
             <h1 className="landing-location">Toronto, Canada</h1>
         </div>
         <div className="landing-right">
-            <h1 className="landing-summary">Summary</h1>
-            <div></div>
+          <div className="landing-summary">
+            <b className="summary-text">Summary</b>
+            <div className="summary-line"></div>
+          </div>
+          <div className="landing-headline">
+            <b>I build meaningful code.</b>
+          </div>
+          <p className="landing-description">I’m a <b>Computer Science</b> student
+            at the <br></br><b>University of Waterloo</b> enthusiastic<br></br> about creating digital solutions. </p>
+          <button className="landing-button">Explore</button>
         </div>
+        <img className="landing-img"/>
     </div>
   )
 }
