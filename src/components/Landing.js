@@ -1,4 +1,5 @@
 import React from 'react'
+import landingImg from '../assets/landingImg.png'
 import '../styles/landing.css'
 
 const Landing = () => {
@@ -19,9 +20,9 @@ const Landing = () => {
           </div>
           <p className="landing-description">I’m a <b>Computer Science</b> student
             at the <br></br><b>University of Waterloo</b> enthusiastic<br></br> about creating digital solutions. </p>
-          <button className="landing-button">Explore</button>
+          <button className="landing-button"><span>Explore</span></button>
         </div>
-        <img className="landing-img"/>
+        <img className="landing-img" src={landingImg}/>
     </div>
   )
 }
