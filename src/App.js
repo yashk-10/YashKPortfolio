@@ -4,6 +4,7 @@ import './styles/navbar.css'
 import GridLoader from "react-spinners/GridLoader";
 import NavBar from './components/NavBar';
 import Landing from './components/Landing';
+import About from './components/About';
 // import './whirl.css'
 
 
@@ -19,8 +20,13 @@ const App = () => {
     
   return (
     <div className="App">
+        <>
+                <NavBar/>
+                <Landing/>
+                <About/>
+        </>
         {/* <div class="whirl pong"></div> */}
-        {
+        {/* {
             loading ?
             <div className="loader">
                 <GridLoader 
@@ -33,8 +39,9 @@ const App = () => {
             <>
                 <NavBar/>
                 <Landing/>
+                <About/>
             </>
-        }
+        } */}
     </div>
   )
 }
