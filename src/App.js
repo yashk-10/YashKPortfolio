@@ -5,6 +5,7 @@ import GridLoader from "react-spinners/GridLoader";
 import NavBar from './components/NavBar';
 import Landing from './components/Landing';
 import About from './components/About';
+import Background from './components/Background';
 // import './whirl.css'
 
 
@@ -21,6 +22,7 @@ const App = () => {
   return (
     <div className="App">
         <>
+                <Background/>
                 <NavBar/>
                 <Landing/>
                 <About/>

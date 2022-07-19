@@ -22,7 +22,7 @@ const Landing = () => {
             at the <br></br><b>University of Waterloo</b> enthusiastic<br></br> about creating digital solutions. </p>
           <button className="landing-button"><span>Explore</span></button>
         </div>
-        <img className="landing-img" src={landingImg}/>
+        <img className="landing-img bounce-1" src={landingImg}/>
     </div>
   )
 }
