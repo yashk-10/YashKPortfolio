@@ -7,6 +7,7 @@ import Landing from './components/Landing';
 import About from './components/About';
 import Background from './components/Background';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
 // import './whirl.css'
 
 
@@ -28,6 +29,7 @@ const App = () => {
                 <Landing/>
                 <About/>
                 <Experience/>
+                <Projects/>
         </>
         {/* <div class="whirl pong"></div> */}
         {/* {

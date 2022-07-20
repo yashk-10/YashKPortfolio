@@ -69,6 +69,17 @@
     cursor: pointer;
 }
 
+.company:hover{
+    font-weight: 700;
+    color: #6FFFD4;
+}
+
+/* .company:focus{
+    font-weight: 700;
+    color: #6FFFD4;
+} */
+
+
 .exp-content{
     margin-left: 20vw;
 }
