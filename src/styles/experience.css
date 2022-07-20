@@ -24,7 +24,7 @@
 }
 
 .exp-line{
-    width: 975px;
+    width: 79.5vw;
     height: 0;
     border: 2px solid white;
 }
@@ -43,15 +43,20 @@
 
 .exp-img{
     position: absolute;
-    width: 80%;
-    margin-left: 10%;
+    width: 85vw;
+    height: 35vw;
+    margin-left: 6vw;
+    z-index: -1;
 }
 
 .exp-companies{
     display: flex;
-    width: 20%;
+    width: 25vw;
     justify-content: space-between;
     align-items: center;
+    margin-left: 18vw;
+    margin-top: 5vw;
+
 }
 
 .company{
@@ -61,4 +66,66 @@
     z-index: 10;
 
     color: white;
+    cursor: pointer;
+}
+
+.exp-content{
+    margin-left: 20vw;
+}
+
+.work{
+    font-family: "Roboto";
+    width: 50vw;
+}
+
+.work-role{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.22vw;
+    margin-top: 3vw;
+    margin-left: -2vw;
+
+    color: #FFFFFF;
+}
+
+.work-time{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.54vw;
+    margin-left: 2vw;
+    margin-top: -1vw;
+
+
+    color: #FFFFFF;
+}
+
+.work-desc{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.54vw;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+.bull-1{
+    position: absolute;
+    margin-left: 3.2vw;
+    margin-top: .5vw;
+    width: 50vw;
+}
+
+.bull-2{
+    position: absolute;
+    margin-left: 6.4vw;
+    margin-top: 6.2vw;
+    width: 50vw;
+}
+
+.bull-3{
+    position: absolute;
+    margin-left: 9.8vw;
+    margin-top: 12vw;
+    width: 50vw;
 }

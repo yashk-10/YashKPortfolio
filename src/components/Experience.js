@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Work from './Work'
 import Data from './Data'
 import ExperienceMain from '../assets/ExperienceMain.png'
@@ -6,6 +6,11 @@ import '../styles/experience.css'
 
 const Experience = () => {
   const [active, setActive] = useState("Qoom");
+
+  useEffect(() => {
+    
+  }, [active]);
+
 
 
   return (

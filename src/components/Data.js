@@ -3,7 +3,7 @@ export default [
         {
             role: "Full-Stack Software Developer Intern",
             time: "Jun 2021 - Sep 2021",
-            bullet1: "Built an authentication API purposed at enhancing safer digital interactions by using facial recognition",
+            bullet1: `Built an authentication API purposed at enhancing safer digital interactions by using facial recognition`,
             bullet2: "Increased cyber security by 95% through implementing facial landmark detection technology",
             bullet3: "Achieved an identification accuracy of 87% in over 200 tests by utilizing Face-API.js paired with Node.js, Express, and MongoDB"
         }
