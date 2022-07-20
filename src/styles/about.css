@@ -15,7 +15,7 @@
 }
 
 .about-line{
-    width: 975px;
+    width: 960px;
     height: 0;
     border: 2px solid #6FFFD4;
 }
@@ -35,11 +35,10 @@
     font-size: 25px;
     line-height: 30px;
     text-align: right;
-    margin-right: 5%;
+    margin-right: 6.25vw;
     margin-bottom: -50px;
 
     color: #6FFFD4;
-
 }
 
 .about-main{

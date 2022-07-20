@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import Landing from './components/Landing';
 import About from './components/About';
 import Background from './components/Background';
+import Experience from './components/Experience';
 // import './whirl.css'
 
 
@@ -26,6 +27,7 @@ const App = () => {
                 <NavBar/>
                 <Landing/>
                 <About/>
+                <Experience/>
         </>
         {/* <div class="whirl pong"></div> */}
         {/* {
