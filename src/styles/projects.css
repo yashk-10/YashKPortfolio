@@ -5,7 +5,7 @@
     font-family: "Roboto";
 }
 
-.proj-top{
+.projects-top{
     display: flex;
     align-items: center;
     width: 90%;
@@ -14,13 +14,13 @@
     margin-bottom: -60px;
 }
 
-.proj-line{
+.projects-line{
     width: 79.5vw;
     height: 0;
     border: 2px solid #6FFFD4;
 }
 
-.proj-head{
+.projects-head{
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
@@ -29,14 +29,20 @@
     color: #6FFFD4;
 }
 
-.proj-summary{
+.projects-summary{
     font-style: normal;
     font-weight: 200;
     font-size: 25px;
     line-height: 30px;
     text-align: right;
     margin-right: 6.25vw;
-    margin-bottom: -50px;
+    margin-bottom: 50px;
 
     color: #6FFFD4;
+}
+
+.proj{
+    font-family: "Robot";
+    width: 50vw;
+    margin-left: 10vw;
 }
