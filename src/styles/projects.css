@@ -91,6 +91,7 @@
     height: 25vw;
     margin-top: -0.5vw;
     margin-left: 2vw;
+    z-index: 10;
 
 
     opacity: 0.5;
@@ -102,7 +103,7 @@
 .proj-img:hover{
     cursor: pointer;
     background-color: #6FFFD4;
-    opacity: 0.7;
+    opacity: 0.8;
     filter: none;
     /* -webkit-filter: none; */
 }
@@ -120,7 +121,7 @@
     transform: rotate(180deg);
     width: 10vw;
     height: 12vw;
-    margin-top: -10vw;
+    margin-top: -10.5vw;
     margin-left: -1.3vw;
 }
 
@@ -133,7 +134,7 @@
 .proj-right-sides{
     display: flex;
     flex-direction: column;
-    width: 25vw;
+    width: 27vw;
     margin-right: 5vw;
     align-items: right;
     text-align: right;
@@ -146,6 +147,9 @@
     display: inline-block;
     position: relative;
     cursor: pointer;
+    margin-bottom: 2vw;
+    text-decoration: none;
+    margin-top: 2vw;
 
     color: #6FFFD4;
 }
@@ -175,6 +179,9 @@
     display: inline-block;
     position: relative;
     cursor: pointer;
+    margin-bottom: 2vw;
+    text-decoration: none;
+    margin-top: 2vw;
 
     color: #6FFFD4;
 }
@@ -182,11 +189,11 @@
 .proj-name-sides:after {
     content: '';
     position: absolute;
-    width: 52%;
+    width: 48%;
     transform: scaleX(0);
     height: 3px;
     bottom: 0;
-    left: 153px;
+    left: 178px;
     background-color: #6FFFD4;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;

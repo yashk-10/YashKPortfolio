@@ -41,12 +41,18 @@
     color: white;
 }
 
+.exp-meat{
+    margin-left: 3vw;
+}
+
+
 .exp-img{
     position: absolute;
     width: 85vw;
     height: 35vw;
     margin-left: 6vw;
     z-index: -1;
+    margin-top: -3vw;
 }
 
 .exp-companies{
@@ -62,7 +68,7 @@
 .company{
     font-style: normal;
     font-weight: 200;
-    font-size: 25px;
+    font-size: 1.953vw;
     z-index: 10;
 
     transition: .5s;
@@ -115,7 +121,7 @@
     font-style: normal;
     font-weight: 200;
     font-size: 1.54vw;
-    line-height: 22px;
+    line-height: 1.71875vw;
 
     color: #FFFFFF;
 

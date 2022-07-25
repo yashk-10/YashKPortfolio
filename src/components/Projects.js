@@ -14,9 +14,9 @@ const Projects = () => {
             <h1 className="projects-head">Projects</h1>
         </div>
         <p className="projects-summary">Bringing Innovative Ideas to Life.</p>
-        <Proj data={ProjData} pic={Beacon} id={0}/>
-        <Proj data={ProjData} pic={Universal} id={1}/>
-        <Proj data={ProjData} pic={Wildfire} id={2}/>
+        <Proj data={ProjData} pic={Beacon} id={0} link="https://github.com/harshithl1777/beacon"/>
+        <Proj data={ProjData} pic={Universal} link="https://github.com/yashk-10/Universal" id={1}/>
+        <Proj data={ProjData} pic={Wildfire} link="https://github.com/yashk-10/Wildfire" id={2}/>
     </div>
   )
 }

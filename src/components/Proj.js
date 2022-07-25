@@ -2,7 +2,7 @@ import React from 'react'
 import edges from '../assets/edges.png'
 import '../styles/projects.css'
 
-const Proj = ({ data, pic, id }) => {
+const Proj = ({ data, pic, id, link }) => {
   let sides = false
   if(id == 1){
     sides = true
@@ -12,7 +12,7 @@ const Proj = ({ data, pic, id }) => {
        {sides ? data[id].map(item =>(
             <div className="proj">
               <div className="proj-right-sides">
-                <h1 className="proj-name-sides">{item.name}</h1>
+                <a href={link} className="proj-name-sides">{item.name}</a>
                 <p className="proj-desc">{item.desc1}</p>
                 <p className="proj-desc">{item.desc2}</p>
                 <p className="proj-desc">{item.desc3}</p>
@@ -24,7 +24,7 @@ const Proj = ({ data, pic, id }) => {
                   <h1 className="proj-tool">{item.tools[2]}</h1>
                   <img className="proj-edge-top" src={edges}/>
                 </div>
-                <img className="proj-img" src={pic}/>
+                <a href={link}><img className="proj-img" src={pic}/></a>
                 <div className="proj-bottom">
                   <img className="proj-edge-bottom" src={edges}/>
                   <h1 className="proj-tool">{item.tools[3]}</h1>
@@ -43,7 +43,7 @@ const Proj = ({ data, pic, id }) => {
                   <h1 className="proj-tool">{item.tools[2]}</h1>
                   <img className="proj-edge-top" src={edges}/>
                 </div>
-                <img className="proj-img" src={pic}/>
+                <a href={link}><img className="proj-img" src={pic}/></a>
                 <div className="proj-bottom">
                   <img className="proj-edge-bottom" src={edges}/>
                   <h1 className="proj-tool">{item.tools[3]}</h1>
@@ -53,7 +53,7 @@ const Proj = ({ data, pic, id }) => {
                 </div>
               </div>
               <div className="proj-right">
-                <h1 className="proj-name">{item.name}</h1>
+                <a href={link} className="proj-name">{item.name}</a>
                 <p className="proj-desc">{item.desc1}</p>
                 <p className="proj-desc">{item.desc2}</p>
                 <p className="proj-desc">{item.desc3}</p>

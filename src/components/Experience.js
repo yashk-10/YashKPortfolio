@@ -47,16 +47,18 @@ const Experience = () => {
             <div className="exp-line"></div>
         </div>
         <p className="exp-summary">Attaining Industry-Specific Skills at Growing Companies.</p>
-        <img className="exp-img" src={ExperienceMain}></img>
-        <div className="exp-companies">
-          <a ref={Qoom} onClick={() => setActive("Qoom")} id="Qoom" className="company">Qoom</a>
-          <a ref={Felix} onClick={() => setActive("Felix")} id="Felix" className="company">Felix</a>
-          <a ref={NodeApp} onClick={() => setActive("Node")} id="Node" className="company">Node App</a>
-        </div>
-        <div className="exp-content">
-          {active === "Qoom" && <Work data={Data} id={0}/>}
-          {active === "Felix" && <Work data={Data} id={1}/>}
-          {active === "Node" && <Work data={Data} id={2} />}
+        <div className="exp-meat">
+          <img className="exp-img" src={ExperienceMain}></img>
+          <div className="exp-companies">
+            <a ref={Qoom} onClick={() => setActive("Qoom")} id="Qoom" className="company">Qoom</a>
+            <a ref={Felix} onClick={() => setActive("Felix")} id="Felix" className="company">Felix</a>
+            <a ref={NodeApp} onClick={() => setActive("Node")} id="Node" className="company">Node App</a>
+          </div>
+          <div className="exp-content">
+            {active === "Qoom" && <Work data={Data} id={0}/>}
+            {active === "Felix" && <Work data={Data} id={1}/>}
+            {active === "Node" && <Work data={Data} id={2} />}
+          </div>
         </div>
     </div>
   )
