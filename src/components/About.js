@@ -22,7 +22,7 @@ const About = () => {
                 <b> React, Node.js, AWS, Git, MongoDB, MySQL, Firebase, Material-UI &amp; Redux</b>
                 </p>
                 <div className="about-bottom">
-                <a style={{textDecoration: "none"}}href=""><h1 className="about-action">What I’m working on right now</h1>
+                <a style={{textDecoration: "none"}} href="https://github.com/yashk-10"><h1 className="about-action">What I’m working on right now</h1>
                     <img id="about-arrow" className="about-arrow" src={Arrow}/></a>
                 </div>
             </div>

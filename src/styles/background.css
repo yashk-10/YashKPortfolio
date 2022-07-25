@@ -1,6 +1,10 @@
 .background{
     width: 100%;
     font-family: "Roboto";
+    font-style: italic;
+    font-weight: 200;
+    font-size: 18px;
+    color: #ababab;
 }
 
 .back-img{
@@ -13,6 +17,18 @@
 .rot{
     transform: rotate(180deg);
 }
+
+.tag-1{
+    /* animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom; */
+
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+
 
 /* .bounce-1 {
     animation-name: bounce-1;
@@ -35,19 +51,3 @@
     75%  { transform: translateY(-10px);}
     100% { transform: translateY(0px); }
 } */
-
-.tag-1{
-    /* animation-duration: 5s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom; */
-
-    margin-top: 100px;
-    margin-left: 100px;
-
-    font-style: italic;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #ABABAB;
-}
