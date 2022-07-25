@@ -41,7 +41,7 @@ const Experience = () => {
 
 
   return (
-    <div className="experience">
+    <div id="experience" className="experience">
         <div className="exp-top">
             <h1 className="exp-head">Experience</h1>
             <div className="exp-line"></div>

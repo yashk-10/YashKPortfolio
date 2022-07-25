@@ -8,7 +8,7 @@ import '../styles/projects.css'
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
         <div className="projects-top">
             <div className="projects-line"></div>
             <h1 className="projects-head">Projects</h1>

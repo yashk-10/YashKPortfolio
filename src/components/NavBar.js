@@ -32,11 +32,11 @@ const NavBar = () => {
     <div className={`navbar ${show && 'hidden'}`}>
         <img className="nav-logo" src={YashLogo}/>
         <div className="nav-right">
-            <a style={{"textDecoration": "none"}} href="/about"><h1 className="nav-item">About</h1></a>
-            <a style={{"textDecoration": "none"}} href="/experience"><h1 className="nav-item">Experience</h1></a>
-            <a style={{"textDecoration": "none"}} href="/projects"><h1 className="nav-item">Projects</h1></a>
-            <a style={{"textDecoration": "none"}} href="/contact"><h1 className="nav-item">Contact</h1></a>
-            <button className="nav-button"><span>Resume</span></button>
+            <a style={{"textDecoration": "none"}} href="#about"><h1 className="nav-item">About</h1></a>
+            <a style={{"textDecoration": "none"}} href="#experience"><h1 className="nav-item">Experience</h1></a>
+            <a style={{"textDecoration": "none"}} href="#projects"><h1 className="nav-item">Projects</h1></a>
+            <a style={{"textDecoration": "none"}} href="#contact"><h1 className="nav-item">Contact</h1></a>
+            <a href="../assets/YashKResume.pdf"><button className="nav-button"><span>Resume</span></button></a>
         </div>
     </div>
   )
