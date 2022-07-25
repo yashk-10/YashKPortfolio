@@ -8,6 +8,8 @@ import About from './components/About';
 import Background from './components/Background';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 // import './whirl.css'
 
 
@@ -30,6 +32,8 @@ const App = () => {
                 <About/>
                 <Experience/>
                 <Projects/>
+                <Contact/>
+                <Footer/>
         </>
         {/* <div class="whirl pong"></div> */}
         {/* {

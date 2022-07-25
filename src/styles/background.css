@@ -1,5 +1,17 @@
 .background{
+    width: 100%;
     font-family: "Roboto";
+}
+
+.back-img{
+    width: 100.2vw;
+    margin-left: -1vw;
+    margin-bottom: -0.5vw;
+    z-index: -10;
+}
+
+.rot{
+    transform: rotate(180deg);
 }
 
 /* .bounce-1 {
@@ -25,9 +37,9 @@
 } */
 
 .tag-1{
-    animation-duration: 5s;
+    /* animation-duration: 5s;
     animation-iteration-count: infinite;
-    transform-origin: bottom;
+    transform-origin: bottom; */
 
     margin-top: 100px;
     margin-left: 100px;

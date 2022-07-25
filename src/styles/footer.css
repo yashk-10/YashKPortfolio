@@ -1,0 +1,13 @@
+.footer{
+    top: 5000px;
+    width: 100%;
+    font-family: 'Roboto';
+}
+
+.foo-img{
+    width: 100.2vw;
+    height: 8vw;
+    margin-left: -1vw;
+    margin-bottom: -1vw;
+    z-index: -10;
+}
