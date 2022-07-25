@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    height: 90px;
+    height: 7.03125vw;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -21,21 +21,21 @@
 }
 
 .hidden{
-    height: 90px;
+    height: 7.03125vw;
     width: 100%;
     z-index: 40;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
     position: fixed;
-    top: -90px;
+    top: -7.03125vw;
     transition: 0.3s linear;
 
 }
 
 .nav-logo{
-    width: 100px;
-    height: 100px;
-    margin-left: 45px;
+    width: 7.8125vw;
+    height: 7.8125vw;
+    margin-left: 3.515625vw;
 }
 
 .nav-right{
@@ -47,8 +47,8 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
-    margin-right: 80px;
+    font-size: 1.25vw;
+    margin-right: 6.25vw;
     color: #ABABAB;
     display: inline-block;
     position: relative;
@@ -75,10 +75,10 @@
     background: #6FFFD4;
     display: block;
     position: absolute;
-    bottom: 3px;
+    bottom: 0.234375vw;
     left: 0;
     width: 0;
-    height: 1px;
+    height: 0.078125vw;
     transition: all 0.3s ease-in-out;
 }
   
@@ -92,19 +92,19 @@
 
 
 .nav-button{
-    width: 121px;
-    height: 45px;
-    border: 1px solid #6FFFD4;
-    border-radius: 5px;
+    width: 9.453125vw;
+    height: 3.515625vw;
+    border: 0.078125vw solid #6FFFD4;
+    border-radius: 0.390625vw;
     background: none;
     outline: none;
-    margin-top: 2px;
+    margin-top: 0.15625vw;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
-    margin-right: 80px;
+    font-size: 1.25vw;
+    margin-right: 6.25vw;
 
     color: #6FFFD4;
     transition: all 0.5s;
@@ -123,12 +123,12 @@ content: '\00bb';
 position: absolute;
 opacity: 0;
 top: 0;
-right: -20px;
+right: -1.5625vw;
 transition: 0.5s;
 }
 
 .nav-button:hover span {
-padding-right: 15px;
+padding-right: 1.171875vw;
 }
 
 .nav-button:hover span:after{
