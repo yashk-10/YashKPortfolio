@@ -1,6 +1,6 @@
 .about{
     position: absolute;
-    top: 800px;
+    top: 62.5vw;
     width: 99%;
     font-family: 'Roboto';
 }
@@ -10,8 +10,8 @@
     align-items: center;
     width: 90%;
     margin-left: 5%;
-    gap: 20px;
-    margin-bottom: -60px;
+    gap: 1.5625vw;
+    margin-bottom: -4.6875vw;
 }
 
 .about-line{
@@ -23,7 +23,7 @@
 .about-head{
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 3.90625vw;
     text-align: right;
 
     color: #6FFFD4;
@@ -32,11 +32,11 @@
 .about-summary{
     font-style: normal;
     font-weight: 200;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 1.953125vw;
+    line-height: 2.34375vw;
     text-align: right;
     margin-right: 6.25vw;
-    margin-bottom: -50px;
+    margin-bottom: -3.90625vw;
 
     color: #6FFFD4;
 }
@@ -59,7 +59,7 @@
     /* font-family: "Arial"; */
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 3.90625vw;
     /* line-height: 61px; */
     color: #6FFFD4;
 
@@ -68,9 +68,9 @@
 .about-top-desc{
     font-style: normal;
     font-weight: 200;
-    font-size: 25px;
-    line-height: 30px;
-    margin-top: -35px;
+    font-size: 1.953125vw;
+    line-height: 2.34375vw;
+    margin-top: -2.734375vw;
 
     color: #6FFFD4;
 }
@@ -78,9 +78,9 @@
 .about-bottom-desc{
     font-style: normal;
     font-weight: 200;
-    font-size: 25px;
-    line-height: 30px;
-    margin-top: -15px;
+    font-size: 1.953125vw;
+    line-height: 2.34375vw;
+    margin-top: -1.171875vw;
 
     color: #6FFFD4;
 }
@@ -89,14 +89,14 @@
     display: flex;
     position: relative;
     align-items: center;
-    margin-top: -20px;
+    margin-top: -1.5625vw;
 }
 
 .about-action{
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 1.953125vw;
+    line-height: 2.34375vw;
     text-align: left;
     display: inline-block;
     position: relative;
@@ -109,8 +109,8 @@
     position: absolute;
     width: 54%;
     transform: scaleX(0);
-    height: 2px;
-    bottom: 15px;
+    height: 0.15625vw;
+    bottom: 1.171875vw;
     left: 0;
     background-color: #6FFFD4;
     transform-origin: bottom right;
@@ -124,9 +124,9 @@
 
 
 .about-arrow{
-    width: 25px;
+    width: 1.953125vw;
     transition: 1s;
-    margin-left: 10px;
+    margin-left: 0.78125vw;
 }
 
 .about-bottom:hover .about-arrow{
@@ -137,7 +137,7 @@
 .about-yash{
     width: 31.25vw;
     height: 35.15625vw;
-    margin-top: 60px;
+    margin-top: 4.6875vw;
 
     transition: 500ms;
     opacity: .5;
@@ -145,5 +145,5 @@
 
 .about-yash:hover{
     opacity: 1;
-    transform: translateY(-10px);
+    transform: translateY(-0.78125vw);
 }
