@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="foo-meat">
           <p className="foo-text">Created by Yash Kapoor</p>
           <div className="foo-right">
-            <a href=""><img className="foo-icon" src={Mail}/></a>
-            <a href=""><img className="foo-icon" src={DevPost}/></a>
-            <a href=""><img className="foo-icon" src={GitHub}/></a>
-            <a href=""><img className="foo-icon" src={LinkedIn}/></a>
+            <a href="mailto:yashkapoor1004@gmail.com"><img className="foo-icon" style={{width: "2.8vw"}}src={Mail}/></a>
+            <a href="https://devpost.com/yashkapoor1004"><img className="foo-icon" style={{width: "2.8vw"}}src={DevPost}/></a>
+            <a href="https://github.com/yashk-10"><img className="foo-icon" style={{width: "2.5vw"}}src={GitHub}/></a>
+            <a href="https://www.linkedin.com/in/yashk10/"><img className="foo-icon" style={{width: "2.5vw"}}src={LinkedIn}/></a>
           </div>
         </div>
     </div>
