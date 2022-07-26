@@ -59,6 +59,18 @@ const Background = () => {
       <img className="ar ar-2" src={Arrow2}/>
       <img className="ar ar-3" src={Arrow2}/>
       <img className="ar ar-4" src={Arrow2}/>
+      <img className="ar ar-5" src={Arrow2}/>
+      <img className="ar ar-6" src={Arrow2}/>
+      <img className="ar ar-7" src={Arrow2}/>
+      <img className="ar ar-8" src={Arrow2}/>
+      <img className="ar ar-9" src={Arrow2}/>
+      <img className="ar ar-10" src={Arrow2}/>
+      <img className="ar ar-11" src={Arrow2}/>
+      <img className="ar ar-12" src={Arrow2}/>
+      <img className="ar ar-13" src={Arrow2}/>
+      <img className="ar ar-14" src={Arrow2}/>
+      <img className="ar ar-15" src={Arrow2}/>
+      <img className="ar ar-16" src={Arrow2}/>
 
         <img className="back-img" src={Back}/>
         <img className="back-img rot" src={Back}/>

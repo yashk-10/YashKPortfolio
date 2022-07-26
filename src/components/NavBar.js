@@ -6,6 +6,7 @@ const NavBar = () => {
   const [show, setShow] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
 
+
   const controlNavbar = () => {
     if (typeof window !== 'undefined') { 
       if (window.scrollY < lastScrollY) {
@@ -32,7 +33,7 @@ const NavBar = () => {
     <div id="navbar" className={`navbar ${show && 'hidden'}`}>
         <a href="#App"><img className="nav-logo" src={YashLogo}/></a>
         <div className="nav-right">
-            <a style={{"textDecoration": "none"}} href="#about"><h1 className="nav-item">About</h1></a>
+            <a style={{"textDecoration": "none"}} href="#about" ><h1 className="nav-item">About</h1></a>
             <a style={{"textDecoration": "none"}} href="#experience"><h1 className="nav-item">Experience</h1></a>
             <a style={{"textDecoration": "none"}} href="#projects"><h1 className="nav-item">Projects</h1></a>
             <a style={{"textDecoration": "none"}} href="#contact"><h1 className="nav-item">Contact</h1></a>

@@ -10,7 +10,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-// import './whirl.css'
+import './styles/loader.css'
 
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
     
   return (
     <div id="App" className="App">
-        <>
+        {/* <>
                 <Background/>
                 <NavBar/>
                 <Landing/>
@@ -34,24 +34,27 @@ const App = () => {
                 <Projects/>
                 <Contact/>
                 <Footer/>
-        </>
+        </> */}
         {/* <div class="whirl pong"></div> */}
-        {/* {
+        {
             loading ?
-            <div className="loader">
-                <GridLoader 
-                color={"#6FFFD4"}
-                loading={loading}
-                size={15} 
-                />
-             </div>
+            <div class="loader">
+                <div class="inner one"></div>
+                <div class="inner two"></div>
+                <div class="inner three"></div>
+            </div>
             :
-            <>
+            <div className="everything">
+                <Background/>
                 <NavBar/>
                 <Landing/>
                 <About/>
-            </>
-        } */}
+                <Experience/>
+                <Projects/>
+                <Contact/>
+                <Footer/>
+        </div>
+        }
     </div>
   )
 }
