@@ -1,10 +1,53 @@
 .background{
-    width: 100%;
+    position: absolute;
+    width: 99%;
     font-family: "Roboto";
+    color: #ABABAB;
+    /* color: #8B8B8B; */
+}
+
+.t{
+    position: absolute;
     font-style: italic;
     font-weight: 200;
     font-size: 18px;
-    color: #ababab;
+    opacity: 0.5;
+    z-index: 5;
+    transition: 1s;
+    cursor: default;
+    /* z-index: 50; */
+}
+
+.t:hover{
+    opacity: 1;
+}
+
+.d{
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    opacity: 0.5;
+    z-index: 5;
+    transition: 1s;
+    cursor: default;
+    /* z-index: 50; */
+}
+
+.d:hover{
+    opacity: 1;
+}
+
+.ar{
+    position: absolute;
+    opacity: 0.5;
+    z-index: 5;
+    transition: 1s;
+    width: 12vw;
+}
+
+.ar:hover{
+    opacity: 1;
 }
 
 .back-img{
@@ -19,17 +62,102 @@
     transform: rotate(180deg);
 }
 
-.tag-1{
-    /* animation-duration: 5s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom; */
 
-    /* margin-top: 100px;
-    margin-left: 100px; */
+.t-1{
+    margin-left: 25vw;
+    margin-top: 8vw;
+}
+
+.t-2{
+    margin-left: 75vw;
+    margin-top: 17vw;
+}
+
+.t-3{
+    margin-left: 6vw;
+    margin-top: 22vw;
+}
+
+.t-4{
+    margin-left: 65vw;
+    margin-top: 40vw;
 }
 
 
 
+
+.d-1{
+    z-index: 50;
+    margin-top: -2.5vw;
+    margin-left: 20vw;
+}
+
+.d-2{
+    margin-top: 4vw;
+    margin-left: 62vw;
+}
+
+.d-3{
+    margin-top: 30vw;
+    margin-left: 12vw;
+}
+
+.d-4{
+    margin-top: 68vw;
+    margin-left: 85vw;
+}
+
+.d-5{
+    margin-top: 71.5vw;
+    margin-left: 4vw;
+}
+
+.d-6{
+    margin-top: 90vw;
+    margin-left: 37vw;
+}
+
+.d-7{
+    margin-top: 137.5vw;
+    margin-left: 76vw;
+}
+
+.d-8{
+    margin-top: 138vw;
+    margin-left: 10vw;
+}
+
+
+.ar-1{
+    margin-top: 12vw;
+    margin-left: 50vw;
+}
+
+.ar-2{
+    margin-top: 15vw;
+    margin-left: 3vw;
+}
+
+.ar-3{
+    margin-top: 45vw;
+    margin-left: 13vw;
+}
+
+
+
+
+
+
+
+
+/* .tag-1{
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+
+    margin-top: 100px;
+    margin-left: 100px;
+} */
 
 /* .bounce-1 {
     animation-name: bounce-1;
