@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './styles/index.css'
 import './styles/navbar.css'
-import GridLoader from "react-spinners/GridLoader";
 import NavBar from './components/NavBar';
 import Landing from './components/Landing';
 import About from './components/About';
