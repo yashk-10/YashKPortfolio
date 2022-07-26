@@ -36,6 +36,12 @@
     width: 7.8125vw;
     height: 7.8125vw;
     margin-left: 3.515625vw;
+    margin-top: 0.5vw;
+    transition: 1s;
+}
+
+.nav-logo:hover{
+    transform: translateY(-.5vw);
 }
 
 .nav-right{

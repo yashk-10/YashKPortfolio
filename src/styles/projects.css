@@ -68,6 +68,7 @@
     font-style: normal;
     font-weight: 200;
     font-size: 1.4vw;
+    cursor: default;
 
     color: #6FFFD4;
 }
@@ -75,7 +76,6 @@
 .proj-tool:hover{
     transition: .5s;
     font-weight: 600;
-
 }
 
 .proj-edge-top{
@@ -123,6 +123,7 @@
     height: 12vw;
     margin-top: -10.5vw;
     margin-left: -1.3vw;
+    z-index: 0;
 }
 
 .proj-right{

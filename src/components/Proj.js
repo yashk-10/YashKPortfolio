@@ -24,7 +24,7 @@ const Proj = ({ data, pic, id, link }) => {
                   <h1 className="proj-tool">{item.tools[2]}</h1>
                   <img className="proj-edge-top" src={edges}/>
                 </div>
-                <a href={link}><img className="proj-img" src={pic}/></a>
+                <a style={{zIndex: "2"}} href={link}><img className="proj-img" src={pic}/></a>
                 <div className="proj-bottom">
                   <img className="proj-edge-bottom" src={edges}/>
                   <h1 className="proj-tool">{item.tools[3]}</h1>
@@ -43,7 +43,7 @@ const Proj = ({ data, pic, id, link }) => {
                   <h1 className="proj-tool">{item.tools[2]}</h1>
                   <img className="proj-edge-top" src={edges}/>
                 </div>
-                <a href={link}><img className="proj-img" src={pic}/></a>
+                <a style={{zIndex: "2"}} href={link}><img className="proj-img" src={pic}/></a>
                 <div className="proj-bottom">
                   <img className="proj-edge-bottom" src={edges}/>
                   <h1 className="proj-tool">{item.tools[3]}</h1>

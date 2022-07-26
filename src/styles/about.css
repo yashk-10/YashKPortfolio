@@ -90,6 +90,7 @@
     position: relative;
     align-items: center;
     margin-top: -1.5625vw;
+    width: 30vw;
 }
 
 .about-action{
@@ -107,7 +108,7 @@
 .about-bottom:after {
     content: '';
     position: absolute;
-    width: 54%;
+    width: 88%;
     transform: scaleX(0);
     height: 0.15625vw;
     bottom: 1.171875vw;

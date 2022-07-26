@@ -29,8 +29,8 @@ const NavBar = () => {
   }, [lastScrollY]);
 
   return (
-    <div className={`navbar ${show && 'hidden'}`}>
-        <img className="nav-logo" src={YashLogo}/>
+    <div id="navbar" className={`navbar ${show && 'hidden'}`}>
+        <a href="#App"><img className="nav-logo" src={YashLogo}/></a>
         <div className="nav-right">
             <a style={{"textDecoration": "none"}} href="#about"><h1 className="nav-item">About</h1></a>
             <a style={{"textDecoration": "none"}} href="#experience"><h1 className="nav-item">Experience</h1></a>

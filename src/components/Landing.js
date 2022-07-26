@@ -4,7 +4,7 @@ import '../styles/landing.css'
 
 const Landing = () => {
   return (
-    <div className="landing">
+    <div id="landing" className="landing">
         <div className="landing-left">
             <h1 className="landing-name">Yash Kapoor</h1>
             <h1 className="landing-role">Software Developer</h1>
@@ -20,7 +20,7 @@ const Landing = () => {
           </div>
           <p className="landing-description">I’m a <b>Computer Science</b> student
             at the <br></br><b>University of Waterloo</b> enthusiastic<br></br> about creating digital solutions. </p>
-          <button className="landing-button"><span>Explore</span></button>
+          <a href="#about"><button className="landing-button"><span>Explore</span></button></a>
         </div>
         <img className="landing-img bounce-1" src={landingImg}/>
     </div>
