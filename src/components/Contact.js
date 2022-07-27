@@ -15,13 +15,13 @@ const Contact = () => {
 
         <div className="con-meat">
             <div className="con-left">
-                <a href="mailto:yashkapoor1004@gmail.com"><img className="con-left-img" src={ContactLeft} /></a>
+                <a href="mailto:yashkapoor1004@gmail.com"><img alt="" className="con-left-img" src={ContactLeft} /></a>
                 <div>
                     <p className="con-left-text">Send me a<br></br> message! I’m always seeking new opportunities and interested in<br></br> hearing any feedback.</p>
                     <div className="con-left-bottom">
                         <a style={{textDecoration: "none"}}href="mailto:yashkapoor1004@gmail.com">
                             <h1 className="con-left-action">Email</h1>
-                            <img id="con-left-arrow" className="con-left-arrow" src={Arrow}/>
+                            <img alt="" id="con-left-arrow" className="con-left-arrow" src={Arrow}/>
                         </a>
                     </div>
                 </div>
@@ -33,11 +33,11 @@ const Contact = () => {
                     <div className="con-right-bottom">
                         <a style={{textDecoration: "none"}}href="https://www.linkedin.com/in/yashk10/">
                             <h1 className="con-right-action">LinkedIn</h1>
-                            <img id="con-right-arrow" className="con-right-arrow" src={Arrow}/>
+                            <img alt="" id="con-right-arrow" className="con-right-arrow" src={Arrow}/>
                         </a>
                     </div>
                 </div>
-                <a href="https://www.linkedin.com/in/yashk10/"><img className="con-right-img" src={ContactRight} /></a>
+                <a href="https://www.linkedin.com/in/yashk10/"><img alt="" className="con-right-img" src={ContactRight} /></a>
             </div>
         </div>
     </div>

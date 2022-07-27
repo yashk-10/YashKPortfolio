@@ -9,14 +9,14 @@ import '../styles/footer.css'
 const Footer = () => {
   return (
     <div className="footer">
-        <img className="foo-img" src={Back}/>
+        <img alt="" className="foo-img" src={Back}/>
         <div className="foo-meat">
           <p className="foo-text">Created by Yash Kapoor</p>
           <div className="foo-right">
-            <a href="mailto:yashkapoor1004@gmail.com"><img className="foo-icon" style={{width: "2.8vw"}}src={Mail}/></a>
-            <a href="https://devpost.com/yashkapoor1004"><img className="foo-icon" style={{width: "2.8vw"}}src={DevPost}/></a>
-            <a href="https://github.com/yashk-10"><img className="foo-icon" style={{width: "2.5vw"}}src={GitHub}/></a>
-            <a href="https://www.linkedin.com/in/yashk10/"><img className="foo-icon" style={{width: "2.5vw"}}src={LinkedIn}/></a>
+            <a href="mailto:yashkapoor1004@gmail.com"><img alt="" className="foo-icon" style={{width: "2.8vw"}}src={Mail}/></a>
+            <a href="https://devpost.com/yashkapoor1004"><img alt="" className="foo-icon" style={{width: "2.8vw"}}src={DevPost}/></a>
+            <a href="https://github.com/yashk-10"><img alt="" className="foo-icon" style={{width: "2.5vw"}}src={GitHub}/></a>
+            <a href="https://www.linkedin.com/in/yashk10/"><img alt="" className="foo-icon" style={{width: "2.5vw"}}src={LinkedIn}/></a>
           </div>
         </div>
     </div>

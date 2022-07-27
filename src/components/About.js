@@ -23,10 +23,10 @@ const About = () => {
                 </p>
                 <div className="about-bottom">
                 <a style={{textDecoration: "none"}} href="https://github.com/yashk-10"><h1 className="about-action">What I’m working on right now</h1>
-                    <img id="about-arrow" className="about-arrow" src={Arrow}/></a>
+                    <img alt="" id="about-arrow" className="about-arrow" src={Arrow}/></a>
                 </div>
             </div>
-            <img className="about-yash" src={YashAbout}/>
+            <img alt="" className="about-yash" src={YashAbout}/>
         </div>
     </div>
   )

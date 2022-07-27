@@ -48,11 +48,11 @@ const Experience = () => {
         </div>
         <p className="exp-summary">Attaining Industry-Specific Skills at Growing Companies.</p>
         <div className="exp-meat">
-          <img className="exp-img" src={ExperienceMain}></img>
+          <img alt="" className="exp-img" src={ExperienceMain}/>
           <div className="exp-companies">
-            <a ref={Qoom} onClick={() => setActive("Qoom")} id="Qoom" className="company">Qoom</a>
-            <a ref={Felix} onClick={() => setActive("Felix")} id="Felix" className="company">Felix</a>
-            <a ref={NodeApp} onClick={() => setActive("Node")} id="Node" className="company">Node App</a>
+            <a  ref={Qoom} onClick={() => setActive("Qoom")} id="Qoom" className="company">Qoom</a>
+            <a  ref={Felix} onClick={() => setActive("Felix")} id="Felix" className="company">Felix</a>
+            <a  ref={NodeApp} onClick={() => setActive("Node")} id="Node" className="company">Node App</a>
           </div>
           <div className="exp-content">
             {active === "Qoom" && <Work data={Data} id={0}/>}

@@ -55,29 +55,29 @@ const Background = () => {
       <p className="d d-21">.....</p>
       <p className="d d-22">.....</p>
 
-      <img className="ar ar-1" src={Arrow2}/>
-      <img className="ar ar-2" src={Arrow2}/>
-      <img className="ar ar-3" src={Arrow2}/>
-      <img className="ar ar-4" src={Arrow2}/>
-      <img className="ar ar-5" src={Arrow2}/>
-      <img className="ar ar-6" src={Arrow2}/>
-      <img className="ar ar-7" src={Arrow2}/>
-      <img className="ar ar-8" src={Arrow2}/>
-      <img className="ar ar-9" src={Arrow2}/>
-      <img className="ar ar-10" src={Arrow2}/>
-      <img className="ar ar-11" src={Arrow2}/>
-      <img className="ar ar-12" src={Arrow2}/>
-      <img className="ar ar-13" src={Arrow2}/>
-      <img className="ar ar-14" src={Arrow2}/>
-      <img className="ar ar-15" src={Arrow2}/>
-      <img className="ar ar-16" src={Arrow2}/>
+      <img alt="" className="ar ar-1" src={Arrow2}/>
+      <img alt="" className="ar ar-2" src={Arrow2}/>
+      <img alt="" className="ar ar-3" src={Arrow2}/>
+      <img alt="" className="ar ar-4" src={Arrow2}/>
+      <img alt="" className="ar ar-5" src={Arrow2}/>
+      <img alt="" className="ar ar-6" src={Arrow2}/>
+      <img alt="" className="ar ar-7" src={Arrow2}/>
+      <img alt="" className="ar ar-8" src={Arrow2}/>
+      <img alt="" className="ar ar-9" src={Arrow2}/>
+      <img alt="" className="ar ar-10" src={Arrow2}/>
+      <img alt="" className="ar ar-11" src={Arrow2}/>
+      <img alt="" className="ar ar-12" src={Arrow2}/>
+      <img alt="" className="ar ar-13" src={Arrow2}/>
+      <img alt="" className="ar ar-14" src={Arrow2}/>
+      <img alt="" className="ar ar-15" src={Arrow2}/>
+      <img alt="" className="ar ar-16" src={Arrow2}/>
 
-        <img className="back-img" src={Back}/>
-        <img className="back-img rot" src={Back}/>
-        <img className="back-img" src={Back}/>
-        <img className="back-img rot" src={Back}/>
-        <img className="back-img" src={Back}/>
-        <img className="back-img rot" src={Back}/>
+        <img alt="" className="back-img" src={Back}/>
+        <img alt="" className="back-img rot" src={Back}/>
+        <img alt="" className="back-img" src={Back}/>
+        <img alt="" className="back-img rot" src={Back}/>
+        <img alt="" className="back-img" src={Back}/>
+        <img alt="" className="back-img rot" src={Back}/>
 
 
     </div>

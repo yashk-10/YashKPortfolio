@@ -4,7 +4,7 @@ import '../styles/projects.css'
 
 const Proj = ({ data, pic, id, link }) => {
   let sides = false
-  if(id == 1){
+  if(id === 1){
     sides = true
   }
   return (
@@ -22,11 +22,11 @@ const Proj = ({ data, pic, id, link }) => {
                   <h1 className="proj-tool">{item.tools[0]}</h1>
                   <h1 className="proj-tool">{item.tools[1]}</h1>
                   <h1 className="proj-tool">{item.tools[2]}</h1>
-                  <img className="proj-edge-top" src={edges}/>
+                  <img alt="" className="proj-edge-top" src={edges}/>
                 </div>
-                <a style={{zIndex: "2"}} href={link}><img className="proj-img" src={pic}/></a>
+                <a style={{zIndex: "2"}} href={link}><img alt="" className="proj-img" src={pic}/></a>
                 <div className="proj-bottom">
-                  <img className="proj-edge-bottom" src={edges}/>
+                  <img alt="" className="proj-edge-bottom" src={edges}/>
                   <h1 className="proj-tool">{item.tools[3]}</h1>
                   <h1 className="proj-tool">{item.tools[4]}</h1>
                   <h1 className="proj-tool">{item.tools[5]}</h1>
@@ -41,11 +41,11 @@ const Proj = ({ data, pic, id, link }) => {
                   <h1 className="proj-tool">{item.tools[0]}</h1>
                   <h1 className="proj-tool">{item.tools[1]}</h1>
                   <h1 className="proj-tool">{item.tools[2]}</h1>
-                  <img className="proj-edge-top" src={edges}/>
+                  <img alt="" className="proj-edge-top" src={edges}/>
                 </div>
-                <a style={{zIndex: "2"}} href={link}><img className="proj-img" src={pic}/></a>
+                <a style={{zIndex: "2"}} href={link}><img alt="" className="proj-img" src={pic}/></a>
                 <div className="proj-bottom">
-                  <img className="proj-edge-bottom" src={edges}/>
+                  <img alt="" className="proj-edge-bottom" src={edges}/>
                   <h1 className="proj-tool">{item.tools[3]}</h1>
                   <h1 className="proj-tool">{item.tools[4]}</h1>
                   <h1 className="proj-tool">{item.tools[5]}</h1>
