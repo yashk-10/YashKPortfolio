@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/navbar.css'
 import YashLogo from '../assets/YashLogo.png'
+import Resume from '../assets/YashKResume.pdf'
 
 const NavBar = () => {
   const [show, setShow] = useState(false);
@@ -37,7 +38,7 @@ const NavBar = () => {
             <a style={{"textDecoration": "none"}} href="#experience"><h1 className="nav-item">Experience</h1></a>
             <a style={{"textDecoration": "none"}} href="#projects"><h1 className="nav-item">Projects</h1></a>
             <a style={{"textDecoration": "none"}} href="#contact"><h1 className="nav-item">Contact</h1></a>
-            <a href="../assets/YashKResume.pdf"><button className="nav-button"><span>Resume</span></button></a>
+            <a target="_blank" href={Resume}><button className="nav-button"><span>Resume</span></button></a>
         </div>
     </div>
   )
