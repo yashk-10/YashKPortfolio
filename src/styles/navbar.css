@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     height: 7.03125vw;
-    width: 100vw;
+    width: 99%;
     margin-left: -.5vw;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@
 
 .hidden{
     height: 7.03125vw;
-    width: 100%;
+    width: 99%;
     z-index: 40;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
