@@ -64,7 +64,7 @@
 
 .con-left-img:hover{
     opacity: 1;
-    transform: translateY(-10px);
+    transform: translateY(-0.78125vw);
 }
 
 
