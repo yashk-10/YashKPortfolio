@@ -72,11 +72,11 @@ const Background = () => {
       <img alt="" className="ar ar-15" src={Arrow2}/>
       <img alt="" className="ar ar-16" src={Arrow2}/>
 
-        <img alt="" className="back-img" src={Back}/>
+        <img alt="" className="back-img back-mb" src={Back}/>
         <img alt="" className="back-img rot" src={Back}/>
-        <img alt="" className="back-img" src={Back}/>
+        <img alt="" className="back-img back-mb" src={Back}/>
         <img alt="" className="back-img rot" src={Back}/>
-        <img alt="" className="back-img" src={Back}/>
+        <img alt="" className="back-img back-mb" src={Back}/>
         <img alt="" className="back-img rot" src={Back}/>
 
 
