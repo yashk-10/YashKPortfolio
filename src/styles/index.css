@@ -1,6 +1,7 @@
 body {
     background: #202020;
     max-width: 100%;
+    width: 100%;
     overflow-x: hidden;
     /* animation-delay: 3s; */
     /* animation: fadeInAnimation ease 3s;
