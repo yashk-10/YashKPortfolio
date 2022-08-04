@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/navbar.css'
 import YashLogo from '../assets/YashLogo.png'
-import Resume from '../assets/YashKResume.pdf'
+import Resume from '../assets/YashKapoor.pdf'
 
 const NavBar = () => {
   const [show, setShow] = useState(false);
