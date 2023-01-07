@@ -158,7 +158,7 @@
 .proj-name:after {
     content: '';
     position: absolute;
-    width: 42%;
+    width: 46%;
     transform: scaleX(0);
     height: 0.234375vw;
     bottom: 0;
@@ -190,11 +190,11 @@
 .proj-name-sides:after {
     content: '';
     position: absolute;
-    width: 48%;
+    width: 39%;
     transform: scaleX(0);
     height: 0.234375vw;
     bottom: 0;
-    left: 13.90625vw;
+    left: 16.5vw;
     background-color: #6FFFD4;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;

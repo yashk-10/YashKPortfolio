@@ -8,7 +8,7 @@ const Landing = () => {
         <div className="landing-left">
             <h1 className="landing-name">Yash Kapoor</h1>
             <h1 className="landing-role">Software Developer</h1>
-            <h1 className="landing-location">Toronto, Canada</h1>
+            <h1 className="landing-location">Waterloo, Canada</h1>
         </div>
         <div className="landing-right">
           <div className="landing-summary">

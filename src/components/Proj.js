@@ -12,7 +12,7 @@ const Proj = ({ data, pic, id, link }) => {
        {sides ? data[id].map(item =>(
             <div className="proj">
               <div className="proj-right-sides">
-                <a href={link} className="proj-name-sides">{item.name}</a>
+                <a href={link} target="_blank" className="proj-name-sides">{item.name}</a>
                 <p className="proj-desc">{item.desc1}</p>
                 <p className="proj-desc">{item.desc2}</p>
                 <p className="proj-desc">{item.desc3}</p>
@@ -24,7 +24,7 @@ const Proj = ({ data, pic, id, link }) => {
                   <h1 className="proj-tool">{item.tools[2]}</h1>
                   <img alt="" className="proj-edge-top" src={edges}/>
                 </div>
-                <a style={{zIndex: "2"}} href={link}><img alt="" className="proj-img" src={pic}/></a>
+                <a style={{zIndex: "2"}} href={link} target="_blank"><img alt="" className="proj-img" src={pic}/></a>
                 <div className="proj-bottom">
                   <img alt="" className="proj-edge-bottom" src={edges}/>
                   <h1 className="proj-tool">{item.tools[3]}</h1>
@@ -43,7 +43,7 @@ const Proj = ({ data, pic, id, link }) => {
                   <h1 className="proj-tool">{item.tools[2]}</h1>
                   <img alt="" className="proj-edge-top" src={edges}/>
                 </div>
-                <a style={{zIndex: "2"}} href={link}><img alt="" className="proj-img" src={pic}/></a>
+                <a style={{zIndex: "2"}} href={link} target="_blank"><img alt="" className="proj-img" src={pic}/></a>
                 <div className="proj-bottom">
                   <img alt="" className="proj-edge-bottom" src={edges}/>
                   <h1 className="proj-tool">{item.tools[3]}</h1>
@@ -53,7 +53,7 @@ const Proj = ({ data, pic, id, link }) => {
                 </div>
               </div>
               <div className="proj-right">
-                <a href={link} className="proj-name">{item.name}</a>
+                <a href={link} target="_blank" className="proj-name">{item.name}</a>
                 <p className="proj-desc">{item.desc1}</p>
                 <p className="proj-desc">{item.desc2}</p>
                 <p className="proj-desc">{item.desc3}</p>
