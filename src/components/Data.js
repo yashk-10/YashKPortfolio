@@ -19,7 +19,7 @@ export default [
     ],
     [
         {
-            role: "Software Engineering Intern",
+            role: "Software Engineer Intern",
             time: "Jul 2020 - May 2021",
             bullet1: "Created an admin managing software to approve & review influencers and businesses during onboarding",
             bullet2: "Developed a streamlined internally connected system offering access to every company, user, and their activity in a visually simple format to improve organizational productivity and efficiency by 33%",
