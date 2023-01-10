@@ -22,7 +22,7 @@ export default [
             role: "Software Engineering Intern",
             time: "Jul 2020 - May 2021",
             bullet1: "Created an admin managing software to approve & review influencers and businesses during onboarding",
-            bullet2: "Developed a streamlined internally connected system offering access to every company, user, and their activity in a visually simple format to improve organizational productivity and efficiency by 67%",
+            bullet2: "Developed a streamlined internally connected system offering access to every company, user, and their activity in a visually simple format to improve organizational productivity and efficiency by 33%",
             bullet3: "Built AWS Lambda Functions to extract data from Cognito User Pools & MySQL database to connect with the React.js frontend using Amazon API Gateway"
         }
     ]
