@@ -5,33 +5,33 @@ import ExperienceMain from '../assets/ExperienceMain.png'
 import '../styles/experience.css'
 
 const Experience = () => {
-  const [active, setActive] = useState("Qoom");
+  const [active, setActive] = useState("BlackBerry");
+  const BlackBerry = useRef()
   const Qoom = useRef()
-  const Felix = useRef()
   const NodeApp = useRef()
 
   useEffect(() => {
-    if(active === "Qoom"){
-      Qoom.current.style.fontWeight = "700";
-      Qoom.current.style.color = "#6FFFD4";
-      Felix.current.style.fontWeight = "200";
-      Felix.current.style.color = "white";
-      NodeApp.current.style.fontWeight = "200";
-      NodeApp.current.style.color = "white";
-    } else if (active === "Felix"){
-      Felix.current.style.fontWeight = "700";
-      Felix.current.style.color = "#6FFFD4";
+    if(active === "BlackBerry"){
+      BlackBerry.current.style.fontWeight = "700";
+      BlackBerry.current.style.color = "#6FFFD4";
       Qoom.current.style.fontWeight = "200";
       Qoom.current.style.color = "white";
+      NodeApp.current.style.fontWeight = "200";
+      NodeApp.current.style.color = "white";
+    } else if (active === "Qoom"){
+      Qoom.current.style.fontWeight = "700";
+      Qoom.current.style.color = "#6FFFD4";
+      BlackBerry.current.style.fontWeight = "200";
+      BlackBerry.current.style.color = "white";
       NodeApp.current.style.fontWeight = "200";
       NodeApp.current.style.color = "white";
     } else if (active === "Node"){
       NodeApp.current.style.fontWeight = "700";
       NodeApp.current.style.color = "#6FFFD4";
-      Felix.current.style.fontWeight = "200";
-      Felix.current.style.color = "white";
       Qoom.current.style.fontWeight = "200";
       Qoom.current.style.color = "white";
+      BlackBerry.current.style.fontWeight = "200";
+      BlackBerry.current.style.color = "white";
     }
 
   }, [active]);
@@ -50,13 +50,13 @@ const Experience = () => {
         <div className="exp-meat">
           <img alt="" className="exp-img" src={ExperienceMain}/>
           <div className="exp-companies">
+            <a  ref={BlackBerry} onClick={() => setActive("BlackBerry")} id="BlackBerry" className="company">BlackBerry</a>
             <a  ref={Qoom} onClick={() => setActive("Qoom")} id="Qoom" className="company">Qoom</a>
-            <a  ref={Felix} onClick={() => setActive("Felix")} id="Felix" className="company">Felix</a>
             <a  ref={NodeApp} onClick={() => setActive("Node")} id="Node" className="company">Node App</a>
           </div>
           <div className="exp-content">
-            {active === "Qoom" && <Work data={Data} id={0}/>}
-            {active === "Felix" && <Work data={Data} id={1}/>}
+            {active === "BlackBerry" && <Work data={Data} id={0}/>}
+            {active === "Qoom" && <Work data={Data} id={1}/>}
             {active === "Node" && <Work data={Data} id={2} />}
           </div>
         </div>
