@@ -1,20 +1,20 @@
 export default [
     [
         {
+            role: "Software Engineer Intern",
+            time: "Jan 2024 - Apr 2024",
+            bullet1: "Leveraged GPT-4 & HubL to engineer content-generation features within Rich Text Editor, resulting in a 33% reduction in time spent on content creation",
+            bullet2: "Developed a dynamic tier-based paywall with TypeScript, Redux, & React for HubDB facilitating the launch of Content Hub",
+            bullet3: "Expanded HubDB’s versatility by implementing support for File and Call-To-Action column types increasing customer satisfaction by 12%"
+        }
+    ],
+    [
+        {
             role: "Software Developer Intern",
             time: "May 2023 - Aug 2023",
             bullet1: `Utilized AWS SQS & Lambda to implement a serverless architecture for real-time threat detection orchestrating 22 million alerts daily`,
             bullet2: "Leveraged DynamoDB Streams & AWS SNS to handle large-scale data processing and identify changes in tenants’ device health resulting in improved scalability",
             bullet3: "Developed robust REST APIs with Node.js & GraphQL pinpointing client weaknesses against cyberthreat enabling customers to promptly rectify issues and enhancing system reliability"
-        }
-    ],
-    [
-        {
-            role: "Full-Stack Software Developer Intern",
-            time: "Jun 2021 - Sep 2021",
-            bullet1: `Built an authentication app purposed at enhancing safer digital interactions by using facial recognition`,
-            bullet2: "Increased cyber security through implementing facial landmark detection technology",
-            bullet3: "Achieved an identification accuracy of 87% in over 200 tests by utilizing Face-API.js paired with Node.js, Express, and MongoDB"
         }
     ],
     [
